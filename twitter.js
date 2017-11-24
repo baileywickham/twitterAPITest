@@ -1,10 +1,10 @@
 var OAuth = require('oauth');
 var fs = require('fs');
 // keys for oauth
-var CONSUMER_KEY = 'KCpd1MjS4AKTh2vS0poWq9Plp';
-var CONSUMER_SECRET = 'EJYRMJRg1tGDvemYJsf1ou9jgcvEP8zRVnL66VJisRn0yBldf3';
-var ACCESS_TOKEN = '2751102888-8HKrPfo6zfBc4vwhD0qGRzl0O1XnE8HhkL2cWuM';
-var ACCESS_TOKEN_SECRET = 'F7Vw2Qf40DUpmfUqlbc5Wtrv5ZQJtNBB7mRcDnkmpJv9C';
+var CONSUMER_KEY = '';
+var CONSUMER_SECRET = '';
+var ACCESS_TOKEN = '';
+var ACCESS_TOKEN_SECRET = '';
 
 
 
