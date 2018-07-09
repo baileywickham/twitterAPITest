@@ -7,4 +7,12 @@ api = twitter.Api(conuser_key='KCpd1MjS4AKTh2vS0poWq9Plp',
 
 def readTweet():
     st = api.GetUserTimeline(screen_name=user)
-     
+
+def parseTweet():
+    for s in s.text.split('\n'):
+        color = s.split(' ').remove(0)
+        if color not in colorDict:
+            colorDict.append(color : [s.favorite_count])
+        else:
+            colorDict[color].append(s.favorite_count)
+
